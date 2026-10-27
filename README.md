@@ -70,8 +70,14 @@ The following modifications were made to the Geant4-DNA molecularDNA example:
 The simulation is based on the molecularDNA example distributed with Geant4-DNA. 
 Incerti, Sébastien, et al. "The geant4-dna project." International Journal of Modeling, Simulation, and Scientific Computing 1.02 (2010): 157-178.
 
-###
-The chromatin geometry uses the fractalDNA framework and the minihumanA reduced-scale human fibroblast model described in Khuong et al. (2025). DOI: 10.1088/1361-6560/ae281c
+## Scope of this repository
+
+This repository provides a **partial code release** associated with the manuscript.
+
+It contains the source-code modifications and post-processing scripts developed for lesion-specific quantification of direct/quasi-direct and indirect non-DSB clustered base damage. It does **not** contain the complete Geant4-DNA `molecularDNA` example, the full simulation framework, all project-specific configuration files, or a standalone build system.
+
+It is **not** intended, by itself, to provide a fully compilable or independently
+runnable version of the complete simulation workflow.
 
 ## License
 
