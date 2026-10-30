@@ -760,7 +760,7 @@ void AnalysisManager::ProcessDNAHitsVector(
     fAnalysisManager->FillNtupleDColumn(4, 20, damageRecord->GetEnergy() / eV);
     fAnalysisManager->FillNtupleIColumn(4, 21, classif->fInducedBreaks);
     fAnalysisManager->FillNtupleIColumn(4, 22, damageRecord->GetChainIdx());
-    fAnalysisManager->FillNtupleIColumn(4, 23, damageRecord->GetPlacementIdx());
+    fAnalysisManager->FillNtupleIColumn(4, 23, damageRecord->GetStrandIdx());
     fAnalysisManager->FillNtupleDColumn(
       4, 24, (G4double) damageRecord->GetStartBPIdx());
     // fAnalysisManager->FillNtupleIColumn(4, 23, (*it)->GetStartBPIdx());//ORG
